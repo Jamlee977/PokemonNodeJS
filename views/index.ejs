@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%=title%></title>
+</head>
+<body>
+    <h1 title="Pokemon is uncountable so it cannot be 'Pokemons'" style="
+        text-align: center;
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 2rem 0;
+        font-family: 'Arial', sans-serif;
+    "
+    ><%=header%></h1>
+    <ul
+        style="
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            font-size: 30px;
+            font-family: 'Arial', sans-serif;
+        "
+    >
+        <li><%= pokemon1.name %>: <%= pokemon1.order %></li>
+        <li><%= pokemon2.name %>: <%= pokemon2.order %></li>
+        <li><%= pokemon3.name %>: <%= pokemon3.order %></li>
+    </ul>
+</body>
+</html>
